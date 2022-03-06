@@ -1,0 +1,11 @@
+1) Does your Xinu shell support an arbitrary number of commands in one pipeline? If yes, how does your program enable it? If no, what is the limit?
+
+No the limit for my program is the number of pipes which is 10.
+
+2) Unix shells allow a pipeline to span multiple lines of input. What two syntactic conventions does a shell use that allow a user to indicate that the pipeline continues on additional lines?
+
+unix uses a space after \ and also uses a space after |.
+
+3)If a user enters x|y|z into a Unix shell and none of x, y, or z is a valid command name, the Unix shell prints three error messages, one for each of x, y, and z. Errors may be due to a user mistyping command names or to a user having an invalid path. How do multiple error messages help identify the cause?
+
+It helps identify the cause by showing which command was invalid.
